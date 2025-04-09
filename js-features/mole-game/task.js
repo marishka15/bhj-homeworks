@@ -24,8 +24,6 @@ for (let i = 1; i < 10; i++ ) {
         }
 
         if (counterLost === 5) {
-            //dead.textContent = counterDead; //?
-            // playing = false;
             alert ('Вы проиграли');
             counterDead = 0;
             counterLost = 0;
